@@ -23,18 +23,19 @@ const SlideshowStyled = styled.div`
     justify-content: center;
     align-items: center;
     border: 0;
-    width: 96px;
-    height: 119px;
+    width: 60px;
+    height: 60px;
     background: transparent;
     cursor: pointer;
-    top: 50%;
+    top: 55%;
     transform: translate(0,-50%);
 
     &.slideshow__leftArrow, .slideshow__leftArrow--Mobile  {
-      left: 0%;
+      left: 2%;
     }
+
     &.slideshow__rightArrow, .slideshow__rightArrow--Mobile {
-      right: 0%;
+      right: 2%;
     }
 
     .slideshow__leftArrow--Mobile, .slideshow__rightArrow--Mobile {

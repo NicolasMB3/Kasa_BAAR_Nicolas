@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import PresentationHostStyle from "./Style.jsx";
-import HostPortrait from '../HostPortrait/Index.jsx';
-import Rating from '../Rating/Index.jsx';
+import HostPortrait from '../Portrait/Index.jsx';
+import Rating from '../Notation/Index.jsx';
 import { MycontextFromHousingPageForPresentation } from '../../Pages/Housing';
 
 function PresentationHost() {
