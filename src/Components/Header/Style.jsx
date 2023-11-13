@@ -17,6 +17,11 @@ const HeaderStyle = styled.header`
     gap: 45px;
   }
 
+  .header__nav:hover, .active {
+    text-decoration: underline;
+  }
+  
+
   @media only screen and (max-width: 992px) {
     nav {
       width: auto;
