@@ -42,16 +42,15 @@ const GalleryCardStyle = styled(Link)`
     color: ${colors.white};
   }
   
-    /* Version mobile */
-    @media only screen and (max-width: 767px) {
-      width: 90%;
-      height: 255px;
+  @media only screen and (max-width: 767px) {
+    width: 90%;
+    height: 255px;
 
-      img {
-        width: 100%;
-        height: 100%;
-      }
+    img {
+      width: 100%;
+      height: 100%;
     }
+  }
 `;
 
 export default GalleryCardStyle;
