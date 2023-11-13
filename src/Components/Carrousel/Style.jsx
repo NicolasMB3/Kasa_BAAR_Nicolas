@@ -74,7 +74,10 @@ const SlideshowStyled = styled.div`
     button {
       .slideshow__leftArrow--Desktop, &.slideshow__rightArrow--Desktop {
         visibility: hidden;
-        width: 24px;
+      }
+
+      img {
+        width: 17px;
         height: 24px;
       }
 

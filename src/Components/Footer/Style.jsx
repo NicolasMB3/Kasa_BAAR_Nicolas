@@ -29,9 +29,17 @@ const FooterStyle = styled.footer`
 
   /* Version mobile - Très petits ecrans */
   @media only screen and (max-width: 525px) {
+    svg {
+      width: 122px;
+      height: 39.444px;
+    }
+
     p {
       text-align: center;
       height: auto;
+      font-size: 12px;
+      width: 25%;
+      margin-top: 16px;
     }
   }
 `;

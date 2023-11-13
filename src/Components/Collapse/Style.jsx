@@ -36,7 +36,7 @@ height: auto;
   flex-wrap: wrap;
   width: 72%;
   margin-top: 31px;
-  margin-bottom: 201px;
+  margin-bottom: 60px;
   row-gap: 31px;
 
   /* Version mobile */
@@ -50,7 +50,7 @@ height: auto;
   @media only screen and (max-width: 525px) {
 
     margin-top: 19px;
-    margin-bottom: 168px;
+    margin-bottom: 60px;
     row-gap: 20px;
   }
 }

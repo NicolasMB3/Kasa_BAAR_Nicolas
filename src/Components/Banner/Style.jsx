@@ -49,7 +49,7 @@ const BannerStyle = styled.div`
       
     &.banner__home {
       height: 111px;
-      margin-top: 16px;
+      margin-top: 32px;
     }
 
     &.banner__about {

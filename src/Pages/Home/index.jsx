@@ -1,6 +1,4 @@
 import React from "react";
-
-{/*Components*/ }
 import Header from '../../Components/Header/Index';
 import Banner from '../../Components/Banner/Index';
 import Gallery from '../../Components/Gallery/Index';
