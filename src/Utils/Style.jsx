@@ -1,16 +1,13 @@
 import styled from 'styled-components';
 import colors from './Colors';
 
-const GlobalStyle = styled.div`
+const Style = styled.div`
 
-  margin: 0;
-  padding: 0;
   list-style: none;
   font-family: Montserrat, 'Courier New', Courier, sans-serif;
   color: ${colors.primary};
   background-color: ${colors.white};
   width: 100%;
-  object-fit: cover;
 
   main {
     display: flex;
@@ -42,4 +39,4 @@ const GlobalStyle = styled.div`
 
 `;
 
-export default GlobalStyle;
+export default Style;
