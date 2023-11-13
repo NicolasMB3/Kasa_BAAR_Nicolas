@@ -7,13 +7,14 @@ const HeaderStyle = styled.header`
 
   nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 27%;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
+    justify-content: flex-end;
+    gap: 45px;
   }
 
   /* Version tablette */

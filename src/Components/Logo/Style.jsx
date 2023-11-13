@@ -3,7 +3,6 @@ import colors from '../../Utils/Colors';
 
 const LogoStyled = styled.div`
 
-  /* styles spécifiques à la classe "header__logo" */
   &.header__logo {
     fill: ${colors.primary};
     width: 210.322px;
