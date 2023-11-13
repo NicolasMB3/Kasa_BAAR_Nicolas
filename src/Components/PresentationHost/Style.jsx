@@ -10,15 +10,13 @@ const PresentationHostStyle = styled.div`
   padding-top: 24px;
   color: ${colors.primary};
 
-  /* Version mobile */
   @media only screen and (max-width: 767px) {
-
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0;
-  padding-top: 16.5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    padding-top: 16.5px;
   }
 `;
 

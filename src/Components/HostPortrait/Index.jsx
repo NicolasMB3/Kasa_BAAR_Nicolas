@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 
 function HostPortrait({ hostName, hostPicture }) {
 
-  {/*Récupération du nom de l'hote avec traitement des cas particulier (nom de famille contenant des espaces)*/ }
   const hostNameSplited = hostName.split(' '); //Coupe la chaine de caractère à chaque espace
   const hostFirstName = hostNameSplited.shift(); //Renvoi l'index 0 puis le supprime du tableau
   const hostLastName = hostNameSplited.join(' '); //Reconstitue une chaine de caractère à partir d'un tableau en ajoutant des esapces entre chaque index

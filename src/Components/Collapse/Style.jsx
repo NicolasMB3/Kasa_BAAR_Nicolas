@@ -11,7 +11,7 @@ height: auto;
 &.collapse__housing {
 
   margin-top: 24px;
-  margin-bottom: 201px;
+  margin-bottom: 60px;
   gap: 76px;
 
   /* Version mobile */

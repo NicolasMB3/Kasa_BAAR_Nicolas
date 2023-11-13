@@ -1,15 +1,10 @@
 import React, { useContext } from "react";
 import PresentationLocationStyle from "./Style.jsx";
-
-{/*Components*/ }
 import Tag from '../Tag/Index.jsx';
-
-{/*Contextes du provider*/ }
 import { MycontextFromHousingPageForPresentation } from '../../Pages/Housing/index.jsx';
 
 function PresentationLocation() {
 
-  {/*Récupération des datas provenant du provider */ }
   const PresentationDatasFromContext = useContext(MycontextFromHousingPageForPresentation);
   const ArrayForTag = PresentationDatasFromContext.tags
 
