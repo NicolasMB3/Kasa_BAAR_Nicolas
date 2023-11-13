@@ -30,6 +30,11 @@ const SlideshowStyled = styled.div`
     top: 55%;
     transform: translate(0,-50%);
 
+    img {
+      width: 64px;
+      height: 64px;
+    }
+
     &.slideshow__leftArrow, .slideshow__leftArrow--Mobile  {
       left: 2%;
     }
