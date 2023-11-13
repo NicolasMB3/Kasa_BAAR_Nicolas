@@ -17,7 +17,7 @@ const DropdownStyle = styled.div`
       display: flex;
       align-items: center;
       box-sizing: border-box;
-      width: 90%;
+      width: 100%;
       margin: 0px;
       padding-left: 10px;
       border-radius: 10px 0 0 10px;
@@ -29,11 +29,12 @@ const DropdownStyle = styled.div`
     }
 
     button {
-      width: 15%;
+      width: fit-content;
       border: 0;
       border-radius: 0 10px 10px 0;
       background-color: ${colors.primary};
       color: ${colors.white};
+      padding-right: 12px;
     }
   }
 
