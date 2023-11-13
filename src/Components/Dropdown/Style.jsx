@@ -34,8 +34,13 @@ const DropdownStyle = styled.div`
       border-radius: 0 10px 10px 0;
       background-color: ${colors.primary};
       color: ${colors.white};
-      padding-right: 12px;
+      padding-right: 18px;
       cursor: pointer;
+
+      img {
+        width: 16px;
+        height: 8px;
+      }
     }
   }
 
