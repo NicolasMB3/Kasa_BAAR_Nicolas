@@ -1,6 +1,6 @@
 import React from "react";
 import Header from '../../Components/Header/Index';
-import Banner from '../../Components/Banner/Index';
+import Banner from '../../Components/Hero/Index';
 import Gallery from '../../Components/Gallery/Index';
 import Footer from '../../Components/Footer/Index';
 

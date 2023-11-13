@@ -14,9 +14,7 @@ height: auto;
   margin-bottom: 60px;
   gap: 76px;
 
-  /* Version mobile */
   @media only screen and (max-width: 767px) {
-
     width: 90%;
     flex-direction: column;
     gap: 20px;

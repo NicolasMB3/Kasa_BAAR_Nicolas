@@ -14,8 +14,10 @@ const SlideshowStyled = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 25px;
+    object-fit: cover;
+    max-width: 100%;
+    object-position: center;
   }
-
 
   button {
     display: flex;

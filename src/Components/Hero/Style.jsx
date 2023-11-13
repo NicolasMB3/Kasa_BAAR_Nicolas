@@ -29,7 +29,8 @@ const BannerStyle = styled.div`
 
   &.banner__about {
     margin-top: 44px;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bannerAboutUrl});
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bannerAboutUrl});
+
     h1 {
       display: none;
     }
@@ -39,6 +40,7 @@ const BannerStyle = styled.div`
     &.banner__home {
       h1 {
         font-size: 24px;
+        width: 58%;
       }
     }
   }

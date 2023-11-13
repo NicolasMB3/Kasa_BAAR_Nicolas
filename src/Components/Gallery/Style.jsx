@@ -27,6 +27,7 @@ const GalleryStyle = styled.section`
     grid-template-columns: 1fr; 
     background-color: ${colors.white};
     padding: 0;
+    width: 90%;
   }
 `;
 
