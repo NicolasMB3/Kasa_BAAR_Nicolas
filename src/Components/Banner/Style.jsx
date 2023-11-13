@@ -15,27 +15,26 @@ const BannerStyle = styled.div`
   background-position: center center;
   background-size: cover;
 
-&.banner__home {
-  margin-top: 63px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bannerHomeUrl});
-  h1 {
-    color: ${colors.white};
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 142.6%;
+  &.banner__home {
+    margin-top: 63px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bannerHomeUrl});
+    h1 {
+      color: ${colors.white};
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 142.6%;
+    }
   }
-}
 
-&.banner__about {
-  margin-top: 44px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bannerAboutUrl});
-  h1 {
-    display: none;
+  &.banner__about {
+    margin-top: 44px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bannerAboutUrl});
+    h1 {
+      display: none;
+    }
   }
-}
 
-  /* Version tablette */
   @media only screen and (max-width: 992px) {
     &.banner__home {
       h1 {
@@ -44,7 +43,6 @@ const BannerStyle = styled.div`
     }
   }
 
-  /* Version mobile */
   @media only screen and (max-width: 767px) {
       width: 90%;
       border-radius: 10px;
@@ -58,7 +56,6 @@ const BannerStyle = styled.div`
       margin-top: 17px;
   }
 
-  /* Version mobile - Très petits ecrans */
   @media only screen and (max-width: 525px) {
     &.banner__home {
         justify-content: flex-start;

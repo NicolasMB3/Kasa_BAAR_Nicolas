@@ -16,6 +16,7 @@ function About() {
     }));
 
     return (
+        // Fragment
         <>
             <Header />
             <main>

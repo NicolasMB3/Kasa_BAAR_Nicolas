@@ -35,6 +35,7 @@ const DropdownStyle = styled.div`
       background-color: ${colors.primary};
       color: ${colors.white};
       padding-right: 12px;
+      cursor: pointer;
     }
   }
 

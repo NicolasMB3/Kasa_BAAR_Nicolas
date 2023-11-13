@@ -7,8 +7,8 @@ const SlideshowStyled = styled.div`
   position: relative;
   width: 86%;  
   height: 415px;
-  padding-top: 27px;
-  object-fit: fill;
+  padding-top: 42px;
+  object-fit: contain;
 
   .slideshow__picture {
     width: 100%;

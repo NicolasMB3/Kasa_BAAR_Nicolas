@@ -1,16 +1,11 @@
 import React, { useContext } from "react";
 import PresentationHostStyle from "./Style.jsx";
-
-{/*Components*/ }
 import HostPortrait from '../HostPortrait/Index.jsx';
 import Rating from '../Rating/Index.jsx';
-
-{/*Contextes du provider*/ }
 import { MycontextFromHousingPageForPresentation } from '../../Pages/Housing';
 
 function PresentationHost() {
 
-  {/*Récupération des datas provenant du provider */ }
   const PresentationDatasFromContext = useContext(MycontextFromHousingPageForPresentation);
 
   return (

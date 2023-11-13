@@ -34,8 +34,8 @@ function Slideshow({ pictureArray, pictureAlt }) {
 }
 
 Slideshow.propTypes = {
-  pictureArray: PropTypes.array, // Validation de la prop pictureArray
-  pictureAlt: PropTypes.string // Validation de la prop pictureAlt
+  pictureArray: PropTypes.array,
+  pictureAlt: PropTypes.string
 };
 
 export default Slideshow;
