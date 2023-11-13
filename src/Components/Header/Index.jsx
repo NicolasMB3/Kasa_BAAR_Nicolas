@@ -8,8 +8,8 @@ function Header() {
     <HeaderStyle>
       <Logo className="header__logo" />
       <nav>
-        <Link to="/"> Accueil </Link>
-        <Link to="/About"> A propos </Link>
+        <Link to="/">Accueil</Link>
+        <Link to="/About">À propos</Link>
       </nav>
     </HeaderStyle>
   );

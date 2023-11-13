@@ -17,7 +17,6 @@ const HeaderStyle = styled.header`
     gap: 45px;
   }
 
-  /* Version tablette */
   @media only screen and (max-width: 992px) {
     nav {
       width: auto;
@@ -25,7 +24,6 @@ const HeaderStyle = styled.header`
     }
   }
 
-  /* Version mobile */
   @media only screen and (max-width: 767px) {
     padding: 20px 5% 0 5%;
 
