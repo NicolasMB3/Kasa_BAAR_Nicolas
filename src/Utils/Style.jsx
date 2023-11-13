@@ -18,6 +18,9 @@ const Style = styled.div`
     align-items: center;
     height: auto;
     width: 100%;
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   a {

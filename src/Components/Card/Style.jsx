@@ -7,7 +7,7 @@ const GalleryCardStyle = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 340px;
+  width: 100%;
   height: 340px;
   border-radius: 10px;
   position: relative;
@@ -43,7 +43,7 @@ const GalleryCardStyle = styled(Link)`
   }
   
   @media only screen and (max-width: 767px) {
-    width: 90%;
+    width: 100%;
     height: 255px;
 
     img {

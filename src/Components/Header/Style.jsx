@@ -4,6 +4,9 @@ const HeaderStyle = styled.header`
   display: flex;
   justify-content: space-between;
   padding: 40px 7% 0 7%;
+  max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
 
   nav {
     display: flex;
@@ -17,7 +20,7 @@ const HeaderStyle = styled.header`
     gap: 45px;
   }
 
-  .header__nav:hover, .active {
+  .header__nav:hover, .header__nav.active {
     text-decoration: underline;
   }
   

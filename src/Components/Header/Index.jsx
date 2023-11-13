@@ -8,8 +8,8 @@ function Header() {
     <HeaderStyle>
       <Logo className="header__logo" />
       <nav>
-        <NavLink className="header__nav" exact to="/" activeClassName="active">Accueil</NavLink>
-        <NavLink className="header__nav" to="/About" activeClassName="active">À propos</NavLink>
+        <NavLink className="header__nav" to="/">Accueil</NavLink>
+        <NavLink className="header__nav" to="/About">À propos</NavLink>
       </nav>
     </HeaderStyle>
   );
