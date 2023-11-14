@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 
 const TagStyle = styled.div`
 
@@ -17,14 +18,13 @@ const TagStyle = styled.div`
   line-height: 20px;
 
 /* Version mobile */
-@media only screen and (max-width: 767px) {
-
-  min-width: 84px;
-  font-size: 10px;
-  height: 18px;
+  @media only screen and (max-width: 767px) {
+    min-width: 84px;
+    font-size: 10px;
+    height: ${variables.fSize18};
 
     p {
-      height: 18px;
+      height: ${variables.fSize18};
     }
   }
 

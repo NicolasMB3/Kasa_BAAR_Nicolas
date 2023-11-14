@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 import { Link } from 'react-router-dom';
 
 const GalleryCardStyle = styled(Link)`
@@ -7,7 +8,7 @@ const GalleryCardStyle = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: ${variables.w100};
   height: 340px;
   border-radius: 10px;
   position: relative;
@@ -16,15 +17,15 @@ const GalleryCardStyle = styled(Link)`
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: ${variables.w100};
+    height: ${variables.w100};
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) 100% );
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) ${variables.w100} );
     }
 
   img {
-    width: 100%;
-    height: 100%;
+    width: ${variables.w100};
+    height: ${variables.w100};
     border-radius: 10px;
     object-fit: cover;
   }
@@ -34,7 +35,7 @@ const GalleryCardStyle = styled(Link)`
     bottom: 0;
     left: 6%;
     width: 60%;
-    font-size: 18px;
+    font-size: ${variables.fSize18};
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
@@ -43,12 +44,12 @@ const GalleryCardStyle = styled(Link)`
   }
   
   @media only screen and (max-width: 767px) {
-    width: 100%;
+    width: ${variables.w100};
     height: 255px;
 
     img {
-      width: 100%;
-      height: 100%;
+      width: ${variables.w100};
+      height: ${variables.w100};
     }
   }
 `;

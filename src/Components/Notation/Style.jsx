@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import variables from '../../Utils/Variables';
 
 const RatingStyle = styled.div`
 
@@ -14,7 +15,7 @@ const RatingStyle = styled.div`
 
   /* Version mobile */
   @media only screen and (max-width: 767px) {
-    height: 18px;
+    height: ${variables.fSize18};
 
     img {
       height: 13px;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 
 const HostPortraitStyle = styled.div`
 
@@ -9,7 +10,7 @@ const HostPortraitStyle = styled.div`
 
   h3 {
     padding-right: 10px;
-    font-size: 18px;
+    font-size: ${variables.fSize18};
     font-weight: 500;
     line-height: 26px;
     text-align: right;

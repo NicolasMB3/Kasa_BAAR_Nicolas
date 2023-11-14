@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 
 const ErrorStyle = styled.div`
 
@@ -16,7 +17,7 @@ const ErrorStyle = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;  
+    width: ${variables.w100};  
     height: 263px;  
     font-size: 288px;
     font-weight: 700;
@@ -24,7 +25,7 @@ const ErrorStyle = styled.div`
   }
 
   p {
-    width: 100%;    
+    width: ${variables.w100};    
     text-align: center;
     margin: 0;
     font-size: 36px;
@@ -33,7 +34,7 @@ const ErrorStyle = styled.div`
     padding-top: 66px;
 
     &.Link__error {
-      font-size: 18px;
+      font-size: ${variables.fSize18};
       height: 26px;
       padding-top: 182px;
       text-decoration: underline;
@@ -54,7 +55,7 @@ const ErrorStyle = styled.div`
       p {
         padding-top: 11px;
         height: 52px;
-        font-size: 18px;
+        font-size: ${variables.fSize18};
         line-height: 26px;
     
         &.Link__error {

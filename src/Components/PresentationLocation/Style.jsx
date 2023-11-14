@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 
 const PresentationLocationStyle = styled.div`
 
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: ${variables.w100};
   color: ${colors.primary};
 
   h2 {
@@ -17,7 +18,7 @@ const PresentationLocationStyle = styled.div`
   }
 
   h3  {
-    font-size: 18px;
+    font-size: ${variables.fSize18};
     font-weight: 500;
     line-height: 26px;
     margin: 0;
@@ -34,7 +35,7 @@ const PresentationLocationStyle = styled.div`
   @media only screen and (max-width: 767px) {
 
     h2 {
-      font-size: 18px;
+      font-size: ${variables.fSize18};
       line-height: 26px;
       padding-top: 15px;
     }

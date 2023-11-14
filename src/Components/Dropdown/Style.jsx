@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 
 const DropdownStyle = styled.div`
 
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: ${variables.w100};
   height: auto;
 
   .dropdown__title {
@@ -17,7 +18,7 @@ const DropdownStyle = styled.div`
       display: flex;
       align-items: center;
       box-sizing: border-box;
-      width: 100%;
+      width: ${variables.w100};
       margin: 0px;
       padding-left: 10px;
       border-radius: 10px 0 0 10px;
@@ -34,7 +35,7 @@ const DropdownStyle = styled.div`
       border-radius: 0 10px 10px 0;
       background-color: ${colors.primary};
       color: ${colors.white};
-      padding-right: 18px;
+      padding-right: ${variables.fSize18};
       cursor: pointer;
 
       img {
@@ -45,7 +46,7 @@ const DropdownStyle = styled.div`
   }
 
   .dropdown__title--housing h2 {
-    font-size: 18px;
+    font-size: ${variables.fSize18};
     line-height: 25.67px
   }
 
@@ -74,7 +75,7 @@ const DropdownStyle = styled.div`
   }
 
   .dropdown__datas--housing {
-    font-size: 18px;
+    font-size: ${variables.fSize18};
     font-weight: 400;
     line-height: 26px;
   }
@@ -82,7 +83,7 @@ const DropdownStyle = styled.div`
   /* Version mobile */
   @media only screen and (max-width: 767px) {
 
-      width: 100%;
+      width: ${variables.w100};
     
       .dropdown__title {
         height : 30px;
@@ -94,7 +95,7 @@ const DropdownStyle = styled.div`
       }
 
       .dropdown__datas {
-        padding: 18px 11px 40px 11px;
+        padding: ${variables.fSize18} 11px 40px 11px;
         font-size: 12px;
         line-height: 17px;
       }

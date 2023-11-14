@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
+import variables from '../../Utils/Variables';
 
 const SlideshowStyled = styled.div`
 
@@ -11,11 +12,11 @@ const SlideshowStyled = styled.div`
   object-fit: contain;
 
   .slideshow__picture {
-    width: 100%;
-    height: 100%;
+    width: ${variables.w100};
+    height: ${variables.w100};
     border-radius: 25px;
     object-fit: cover;
-    max-width: 100%;
+    max-width: ${variables.w100};
     object-position: center;
   }
 
@@ -56,7 +57,7 @@ const SlideshowStyled = styled.div`
   p {
     position : absolute;  
     height: 32px;
-    font-size: 18px;
+    font-size: ${variables.fSize18};
     font-weight: 500;
     line-height: 26px;
     bottom: 0%;
