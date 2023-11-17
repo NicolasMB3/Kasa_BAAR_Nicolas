@@ -1,22 +1,10 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-/* Importation des pages */
-import Error from './Pages/Error'
-import Home from './Pages/Home'
-import Housing from './Pages/Housing'
-import About from './Pages/About'
+import React from 'react';
+import routes from './Routes';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="*" element={<Error />} />
-        <Route path="/" element={<Home />} />
-        <Route path="housing/:housingId" element={<Housing />} />
-        <Route path="about" element={<About />} />
-      </Routes>
-    </BrowserRouter>
+      <RouterProvider router={createBrowserRouter(routes)}/>
   );
 }
 
