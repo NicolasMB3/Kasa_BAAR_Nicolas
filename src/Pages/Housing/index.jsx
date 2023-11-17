@@ -2,11 +2,11 @@ import React, { createContext } from "react";
 import { useParams } from 'react-router-dom';
 import datas from '../../Ressources/housings.json';
 
-import Header from '../../Components/Header/Index';
-import Slideshow from '../../Components/Carrousel/Index';
-import Presentation from '../../Components/Presentation/Index';
-import Collapse from '../../Components/Collapse/Index';
-import Footer from '../../Components/Footer/Index';
+import Header from '../../Components/Header';
+import Slideshow from '../../Components/Carrousel';
+import Presentation from '../../Components/Presentation';
+import Collapse from '../../Components/Collapse';
+import Footer from '../../Components/Footer';
 import Error from '../Error';
 
 export const MyContextFromHousingPageForCollapse = createContext();

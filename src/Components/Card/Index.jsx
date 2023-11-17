@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryCardStyle from "../Card/Style.jsx";
+import GalleryCardStyle from "./style.jsx";
 import datas from '../../Ressources/housings.json';
 
 function GalleryCard() {

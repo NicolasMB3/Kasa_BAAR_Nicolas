@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from '../Logo/Index.jsx'
-import FooterStyle from "./Style.jsx";
+import Logo from '../Logo/index.jsx'
+import FooterStyle from "./style.jsx";
 
 function Footer() {
   return (

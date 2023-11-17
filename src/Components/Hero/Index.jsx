@@ -1,5 +1,5 @@
 import React from "react";
-import BannerStyle from "./Style.jsx";
+import BannerStyle from "./style.jsx";
 import PropTypes from "prop-types";
 
 function Banner({ className, bannerText }) {

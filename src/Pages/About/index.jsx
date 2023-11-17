@@ -1,9 +1,9 @@
 import React, { createContext } from "react";
 import datas from '../../Ressources/about.json';
-import Header from '../../Components/Header/Index';
-import Banner from '../../Components/Hero/Index';
-import Collapse from '../../Components/Collapse/Index';
-import Footer from '../../Components/Footer/Index';
+import Header from '../../Components/Header';
+import Banner from '../../Components/Hero';
+import Collapse from '../../Components/Collapse';
+import Footer from '../../Components/Footer';
 
 export const MyContextFromAboutPageForCollapse = createContext();
 

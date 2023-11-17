@@ -1,6 +1,6 @@
 import React from "react";
-import GalleryStyle from "../Gallery/Style.jsx";
-import GalleryCard from "../Card/Index.jsx";
+import GalleryStyle from "./style.jsx";
+import GalleryCard from "../Card/index.jsx";
 
 function Gallery() {
   return (

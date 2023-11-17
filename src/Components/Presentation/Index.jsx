@@ -1,8 +1,8 @@
 import React from "react";
-import PresentationStyle from "./Style.jsx";
+import PresentationStyle from "./style.jsx";
 
-import PresentationLocation from '../PresentationLocation/Index.jsx';
-import PresentationHost from '../PresentationHost/Index.jsx';
+import PresentationLocation from '../PresentationLocation/index.jsx';
+import PresentationHost from '../PresentationHost/index.jsx';
 
 function Presentation() {
 

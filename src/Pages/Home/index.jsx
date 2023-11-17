@@ -1,8 +1,8 @@
 import React from "react";
-import Header from '../../Components/Header/Index';
-import Banner from '../../Components/Hero/Index';
-import Gallery from '../../Components/Gallery/Index';
-import Footer from '../../Components/Footer/Index';
+import Header from '../../Components/Header';
+import Banner from '../../Components/Hero';
+import Gallery from '../../Components/Gallery';
+import Footer from '../../Components/Footer';
 
 function Home() {
     return (

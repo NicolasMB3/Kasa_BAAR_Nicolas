@@ -1,5 +1,5 @@
 import React from "react";
-import TagStyle from "./Style.jsx";
+import TagStyle from "./style.jsx";
 import PropTypes from "prop-types";
 
 function Tag({ tags }) {

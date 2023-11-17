@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import PropTypes from "prop-types";
-import LogoStyled from './Style';
+import LogoStyled from './style';
 
 function Logo({ className }) {
     return (

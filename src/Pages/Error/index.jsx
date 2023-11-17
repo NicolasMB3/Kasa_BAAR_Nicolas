@@ -1,7 +1,7 @@
 import React from "react";
-import Header from '../../Components/Header/Index';
-import ErrorComponent from '../../Components/Error/Index';
-import Footer from '../../Components/Footer/Index';
+import Header from '../../Components/Header/';
+import ErrorComponent from '../../Components/Error/';
+import Footer from '../../Components/Footer/';
 
 function Error() {
     return (

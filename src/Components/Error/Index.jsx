@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import ErrorStyle from "./Style.jsx";
+import ErrorStyle from "./style.jsx";
 
 function ErrorComponent() {
   return (

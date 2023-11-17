@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import PresentationLocationStyle from "./Style.jsx";
-import Tag from '../Tag/Index.jsx';
+import PresentationLocationStyle from "./style.jsx";
+import Tag from '../Tag/index.jsx';
 import { MycontextFromHousingPageForPresentation } from '../../Pages/Housing/index.jsx';
 
 function PresentationLocation() {

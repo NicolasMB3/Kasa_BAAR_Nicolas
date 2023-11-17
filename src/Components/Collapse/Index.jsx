@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import CollapseStyle from "./Style.jsx";
+import CollapseStyle from "./style.jsx";
 import PropTypes from "prop-types";
 
-import Dropdown from "../Dropdown/Index.jsx";
+import Dropdown from "../Dropdown/index.jsx";
 import { MyContextFromAboutPageForCollapse } from '../../Pages/About/index';
-import { MyContextFromHousingPageForCollapse } from "../../Pages/Housing";
+import { MyContextFromHousingPageForCollapse } from "../../Pages/Housing/index.jsx";
 
 function Collapse({ page }) {
 

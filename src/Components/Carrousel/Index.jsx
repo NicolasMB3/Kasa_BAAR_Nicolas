@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from 'prop-types';
 
-import SlideshowStyled from './Style';
+import SlideshowStyled from './style';
 
 function Slideshow({ pictureArray, pictureAlt }) {
 

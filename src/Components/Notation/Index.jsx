@@ -1,5 +1,5 @@
 import React from "react";
-import RatingStyle from "./Style.jsx";
+import RatingStyle from "./style.jsx";
 import PropTypes from "prop-types";
 
 function Rating({ rating }) {

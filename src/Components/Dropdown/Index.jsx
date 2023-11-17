@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import DropdownStyle from "./Style.jsx";
+import DropdownStyle from "./style.jsx";
 
 function Dropdown({ page, title, text }) {
 

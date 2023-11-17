@@ -1,5 +1,5 @@
 import React from "react";
-import HostPortraitStyle from "./Style.jsx";
+import HostPortraitStyle from "./style.jsx";
 import PropTypes from "prop-types";
 
 function HostPortrait({ hostName, hostPicture }) {
