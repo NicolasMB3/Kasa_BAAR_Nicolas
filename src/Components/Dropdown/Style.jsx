@@ -13,6 +13,7 @@ const DropdownStyle = styled.div`
     display: flex;
     height: 47px;
     z-index: 1;
+    cursor: pointer;
 
     h2 {
       display: flex;

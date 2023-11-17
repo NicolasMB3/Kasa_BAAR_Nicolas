@@ -9,9 +9,9 @@ function Dropdown({ page, title, text }) {
   return (
 
     <DropdownStyle className={`dropdown--${page}`}>
-      <div className={`dropdown__title dropdown__title--${page}`} >
+      <div className={`dropdown__title dropdown__title--${page}`}  aria-expanded={isOpen} onClick={() => setIsOpen(!isOpen)}>
         <h2> {title} </h2>
-        <button aria-expanded={isOpen} onClick={() => setIsOpen(!isOpen)}>
+        <button>
           {isOpen ?
             <img src='/Pictures/FlecheVersLeBas.png' alt="Flèche vers le bas"></img> :
             <img src='/Pictures/FlecheVersLeHaut.png' alt="Flèche vers le haut"></img>}
