@@ -21,6 +21,7 @@ const Style = styled.div`
     max-width: 1510px;
     margin-left: auto;
     margin-right: auto;
+    min-height: 72vh;
   }
 
   a {

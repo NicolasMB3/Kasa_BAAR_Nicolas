@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import colors from '../../Utils/Colors';
 
 const FooterStyle = styled.footer`
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +9,7 @@ const FooterStyle = styled.footer`
   color: ${colors.white};
   padding: 66px 0 29px 0;
   gap: 28.556px;
+  margin-top: auto;
 
   p {
     display: flex;
